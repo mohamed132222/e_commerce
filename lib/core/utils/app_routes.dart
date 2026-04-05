@@ -1,4 +1,5 @@
 class AppRoutes {
+  static const String splashScreenRouteName = "/splash";
   static const String loginScreenRouteName = "/login";
   static const String registerScreenRouteName = "/register";
   static const String homeScreenRouteName = "/home";
