@@ -1,17 +1,49 @@
-# e_commerce
+# 🛒 E-Commerce App
 
-A new Flutter project.
+![Flutter](https://img.shields.io/badge/Flutter-3.0-blue?logo=flutter)
+![Dart](https://img.shields.io/badge/Dart-2.18-blue?logo=dart)
+![Status](https://img.shields.io/badge/Status-Completed-green)
 
-## Getting Started
+A modern Flutter E-Commerce application with authentication, product browsing, and cart management built using Clean Architecture.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- 🔐 User Authentication (Login / Register / Logout)  
+- 🛍️ Browse products and categories  
+- 🔍 Search products  
+- ❤️ Add to favorites  
+- 🛒 Shopping cart system  
+- 📱 Responsive UI for all screens  
+- ⚡ Clean Architecture  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🔐 Authentication
+
+- Email & Password Login  
+- Register new account  
+- Persistent user session  
+- Secure logout  
+
+---
+
+## 🧱 Project Structure
+
+
+## 🧱 Project Structure
+
+lib/
+ ├── core
+ ├── data
+ ├── domain
+ ├── presentation
+ ## 🛠 Tech Stack
+- Flutter  
+- Dart  
+- State Management (Riverpod / Provider)  
+- REST API  
+- Clean Architecture 
+## 👨‍💻 Author
+Mohamed Abdou
