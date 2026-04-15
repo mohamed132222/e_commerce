@@ -18,6 +18,7 @@ class CustomTextFormField extends StatelessWidget {
   final TextInputAction textInputAction;
   final EdgeInsetsGeometry contentPadding;
   final BorderRadius borderRadius;
+  final Color borderSideColor;
 
   const CustomTextFormField({
     super.key,
@@ -34,6 +35,7 @@ class CustomTextFormField extends StatelessWidget {
     this.maxLines = 1,
     this.maxLength,
     this.enabled = true,
+    this.borderSideColor = AppColor.primaryColor,
     this.textInputAction = TextInputAction.next,
     this.contentPadding = const EdgeInsets.symmetric(
       horizontal: 12,
@@ -67,11 +69,11 @@ class CustomTextFormField extends StatelessWidget {
         border: OutlineInputBorder(borderRadius: borderRadius),
         enabledBorder: OutlineInputBorder(
           borderRadius: borderRadius,
-          borderSide: const BorderSide(color: Colors.grey),
+          borderSide: BorderSide(color: borderSideColor, width: 2),
         ),
         focusedBorder: OutlineInputBorder(
           borderRadius: borderRadius,
-          borderSide: const BorderSide(color: Colors.blue, width: 2),
+          borderSide: BorderSide(color: borderSideColor, width: 2),
         ),
         errorBorder: OutlineInputBorder(
           borderRadius: borderRadius,

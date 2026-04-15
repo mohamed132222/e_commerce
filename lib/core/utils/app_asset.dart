@@ -6,6 +6,11 @@ class AppAsset {
   static const String category = "assets/images/category.png";
   static const String category_selected = "assets/images/category_selected.png";
   static const String favorite = "assets/images/favorite.png";
+  static const String add_favorite_unselected =
+      "assets/images/add_favorite.png";
+  static const String add_favorite_selected =
+      "assets/images/add_favorite_selected.png";
+  static const String delete_icon = "assets/images/delete_icon.png";
   static const String favorite_selected = "assets/images/favorite_selected.png";
   static const String home = "assets/images/home.png";
   static const String home_selected = "assets/images/home_selected.png";

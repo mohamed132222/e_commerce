@@ -9,7 +9,6 @@ class AppTheme {
     bottomNavigationBarTheme: BottomNavigationBarThemeData(
       showUnselectedLabels: false,
       showSelectedLabels: false,
-      backgroundColor: AppColor.primaryColor,
     ),
   );
 }
